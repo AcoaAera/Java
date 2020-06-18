@@ -31,7 +31,7 @@ public class NWordgrammy {
                 if (ngrammy.containsKey(three)) {
                     ngrammy.put(three, ngrammy.get(three) + 1);
                 } else {
-                    ngrammy.put(three, 0.);
+                    ngrammy.put(three, 1.);
                 }
             }
 
